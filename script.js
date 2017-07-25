@@ -16,6 +16,7 @@ function isElementInViewport (el) {
 }
 
 function bannerInView(b) {
+  // Needs to be a negative value as we need a minus percentage for the background-position css attribute to work properly.
   var scarcity = $(b).data('scarcity') * -1;
   if (isElementInViewport(b)) {
     setTimeout(function() {
@@ -25,7 +26,7 @@ function bannerInView(b) {
           'color': '#fff'
         });
       }
-    }, 500);
+    }, 500); // Changes how long the banner must be in view for it to load in.
   }
 }
 
