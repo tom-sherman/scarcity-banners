@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scarcity Banner Mockup</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="main">
+    <div class="content">
+      <h1>Scarcity Banner</h1>
+      <p>Only shows when banner is in view for over half a second to prevent someone quickly scrolling past without seeing the animation.</p>
+      <p>There may need to be a different approach on mobile as the white banner text will likely overflow onto the white part of the background.</p>
+      <p>Scroll down <i class="material-icons">keyboard_arrow_down</i></p>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="banner v1" data-scarcity="85" data-loaded="false">
+        <i class="material-icons">access_time</i> <span>North Cornwall is <span class="amount">85%</span> booked for your dates</span>
+      </div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="placeholder"></div>
+      <div class="banner v2" data-scarcity='73' data-loaded="false">
+        <i class="material-icons">access_time</i> <span>North Cornwall is <span class="amount">85%</span> booked for your dates</span>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
