@@ -80,8 +80,7 @@ span {
 
 @media screen and (max-width: 640px) {
   .main {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 15px;
   }
   .banner {
     font-size: 12px;
